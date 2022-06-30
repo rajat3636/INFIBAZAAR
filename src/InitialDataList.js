@@ -40,6 +40,34 @@ const initialDetails = [
             price:1094.98,
             rating:4,
             image:"https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+    },
+    {
+        id:"3254354345",
+        title:"New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)",
+        price:598.99,
+        rating:4,
+        image:"https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+    },
+    {
+        id:"3254354345",
+        title:"New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)",
+        price:598.99,
+        rating:4,
+        image:"https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+    },
+    {
+        id:"3254354345",
+        title:"New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)",
+        price:598.99,
+        rating:4,
+        image:"https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+    },
+    {
+        id:"3254354345",
+        title:"New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)",
+        price:598.99,
+        rating:4,
+        image:"https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
     }
   ];
   

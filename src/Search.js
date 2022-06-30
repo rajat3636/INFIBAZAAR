@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Scroll from './Scroll';
 import SearchList from './SearchList';
+import SearchIcon from '@mui/icons-material/Search';
+import "./Search.css"
 
 function Search({ details }) {
 
@@ -23,9 +25,9 @@ function Search({ details }) {
 
   function searchList() {
     return (
-      <Scroll>
+      
         <SearchList filteredPersons={filteredPersons} />
-      </Scroll>
+      
     );
   }
 
@@ -34,15 +36,21 @@ function Search({ details }) {
       <div className="navy georgia ma0 grow">
         <h2 className="f2">Search Products</h2>
       </div>
-      <div className="pa2">
+      <div className="header__search">
+        <input className="header__searchInput" type="text"
+          placeholder = "Search Products" 
+          onChange = {handleChange} />
+        <SearchIcon className="header__searchIcon" />
+      </div>
+      {/* <div className="pa2">
         <input 
           className="pa3 bb br3 grow b--none bg-lightest-blue ma3"
           type = "search" 
-          placeholder = "Search People" 
+          placeholder = "Search Products" 
           onChange = {handleChange}
         />
-      </div>
-      {searchList()}
+      </div> */}
+      {searchList(filteredPersons)}
     </section>
   );
 }

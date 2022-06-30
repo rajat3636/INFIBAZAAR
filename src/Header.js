@@ -5,6 +5,8 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import {auth} from "./firebase"
+import initialDetails from "./InitialDataList";
+import Search from "./Search";
 function Header() {
   
   const [{basket,user}, dispatch] = useStateValue();
@@ -23,10 +25,10 @@ function Header() {
         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
         />
         </Link>
-      <div className="header__search">
+
+        <div className="header__search">
         <input className="header__searchInput" type="text" />
-        {/*LOGO*/}
-        <SearchIcon className="header__searchIcon" type="text"/>
+        {/* <SearchIcon className="header__searchIcon" /> */}
       </div>
 
       <div className="header__nav">
