@@ -1,0 +1,410 @@
+[debug] [2022-04-27T13:49:16.749Z] ----------------------------------------------------------------------
+[debug] [2022-04-27T13:49:16.751Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-04-27T13:49:16.751Z] CLI Version:   10.7.1
+[debug] [2022-04-27T13:49:16.752Z] Platform:      win32
+[debug] [2022-04-27T13:49:16.752Z] Node Version:  v14.11.0
+[debug] [2022-04-27T13:49:16.754Z] Time:          Wed Apr 27 2022 19:19:16 GMT+0530 (India Standard Time)
+[debug] [2022-04-27T13:49:16.754Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-27T13:49:16.836Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-27T13:49:16.837Z] > authorizing via signed-in user (rajatbansal6999@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project challenge-3593b. This may result in unexpected behavior. 
+[debug] [2022-04-27T13:49:16.976Z] [hub] writing locator at C:\Users\Ankit\AppData\Local\Temp\hub-challenge-3593b.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[warn] !  Your requested "node" version "16" doesn't match your global version "14". Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"14\". Using node@14 from host."}}
+[debug] [2022-04-27T13:49:17.196Z] defaultcredentials: writing to file C:\Users\Ankit\AppData\Roaming\firebase\rajatbansal6999_gmail_com_application_default_credentials.json
+[debug] [2022-04-27T13:49:17.205Z] Setting GAC to C:\Users\Ankit\AppData\Roaming\firebase\rajatbansal6999_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Ankit\\AppData\\Roaming\\firebase\\rajatbansal6999_gmail_com_application_default_credentials.json"}}
+[debug] [2022-04-27T13:49:17.214Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/challenge-3593b/adminSdkConfig [none]
+[debug] [2022-04-27T13:49:17.826Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/challenge-3593b/adminSdkConfig 200
+[debug] [2022-04-27T13:49:17.826Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/challenge-3593b/adminSdkConfig {"projectId":"challenge-3593b","storageBucket":"challenge-3593b.appspot.com","locationId":"us-central"}
+[debug] [2022-04-27T13:49:17.892Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/challenge-3593b/sites 
+[debug] [2022-04-27T13:49:20.115Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/challenge-3593b/sites 200
+[debug] [2022-04-27T13:49:20.115Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/challenge-3593b/sites {"sites":[{"name":"projects/527425781932/sites/challenge-3593b","defaultUrl":"https://challenge-3593b.web.app","appId":"1:527425781932:web:72484bb104962a10d9df09","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-27T13:49:20.115Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/challenge-3593b/webApps/1:527425781932:web:72484bb104962a10d9df09/config [none]
+[debug] [2022-04-27T13:49:21.663Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/challenge-3593b/webApps/1:527425781932:web:72484bb104962a10d9df09/config 200
+[debug] [2022-04-27T13:49:21.663Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/challenge-3593b/webApps/1:527425781932:web:72484bb104962a10d9df09/config {"projectId":"challenge-3593b","appId":"1:527425781932:web:72484bb104962a10d9df09","storageBucket":"challenge-3593b.appspot.com","locationId":"us-central","apiKey":"AIzaSyC5yX7MzlDttMp1dzmjNijf5nenOAZi1M8","authDomain":"challenge-3593b.firebaseapp.com","messagingSenderId":"527425781932","measurementId":"G-YE8XKH9ZC1"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-04-27T13:49:22.410Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-04-27T13:49:22.411Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-04-27T13:49:22.411Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Ankit\\.cache\\firebase\\emulators\\ui-v1.6.5\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Ankit\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.5\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-04-27T13:49:23.077Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2022-04-27T13:49:23.232Z] Validating nodejs source
+[debug] [2022-04-27T13:49:48.213Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T13:49:48.214Z] Building nodejs source
+[debug] [2022-04-27T13:49:48.214Z] Analyzing nodejs backend spec
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/challenge-3593b/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/challenge-3593b/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-04-27T13:50:56.942Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T13:50:56.942Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T13:50:56.943Z] Accepted request POST /challenge-3593b/us-central1/api/payments/create?total=144894 --> us-central1-api
+[debug] [2022-04-27T13:50:57.021Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T13:50:57.022Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T13:50:57.022Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T13:50:57.023Z] [worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: Assigning socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\17840 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\17840"}}
+[debug] [2022-04-27T13:50:57.024Z] [worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: BUSY"}}
+[debug] [2022-04-27T13:51:06.467Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-04-27T13:51:06.467Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-04-27T13:51:06.467Z] Accepted request POST /challenge-3593b/us-central1/api/payments/create?total=144894 --> us-central1-api
+[debug] [2022-04-27T13:51:06.475Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T13:51:06.476Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2022-04-27T13:51:06.476Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T13:51:06.476Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: Assigning socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\20136 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\20136"}}
+[debug] [2022-04-27T13:51:06.476Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: BUSY"}}
+[debug] [2022-04-27T13:51:40.162Z] [runtime-status] [17840] Functions runtime initialized. {"cwd":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions","node_version":"14.11.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\",\"node_version\":\"14.11.0\"}"}}
+[debug] [2022-04-27T13:51:40.164Z] [runtime-status] [20136] Functions runtime initialized. {"cwd":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions","node_version":"14.11.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\",\"node_version\":\"14.11.0\"}"}}
+[debug] [2022-04-27T13:51:40.166Z] [runtime-status] [17840] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T13:51:40.168Z] [runtime-status] [20136] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T13:51:40.284Z] [runtime-status] [20136] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:40.284Z] [runtime-status] [17840] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:40.327Z] [runtime-status] [20136] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:40.328Z] [runtime-status] [17840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:40.328Z] [runtime-status] [20136] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T13:51:40.328Z] [runtime-status] [17840] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T13:51:40.330Z] [runtime-status] [20136] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:40.330Z] [runtime-status] [17840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:42.329Z] [runtime-status] [20136] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T13:51:42.329Z] [runtime-status] [17840] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T13:51:42.330Z] [runtime-status] [17840] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-27T13:51:42.330Z] [runtime-status] [20136] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-27T13:51:42.331Z] [runtime-status] [17840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:42.332Z] [runtime-status] [20136] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:42.336Z] [runtime-status] [17840] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:42.337Z] [runtime-status] [20136] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:42.339Z] [runtime-status] [17840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:42.339Z] [runtime-status] [20136] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:51:42.340Z] [runtime-status] [20136] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-27T13:51:42.340Z] [runtime-status] [17840] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-27T13:51:46.288Z] [runtime-status] [20136] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Beginning invocation function api!"}}
+[debug] [2022-04-27T13:51:46.289Z] [runtime-status] [17840] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T13:51:46.290Z] [runtime-status] [17840] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Running api in signature http"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T13:51:46.292Z] [runtime-status] [20136] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Running api in signature http"}}
+[debug] [2022-04-27T13:51:46.295Z] [runtime-status] [20136] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\20136 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\20136"}}
+[debug] [2022-04-27T13:51:46.295Z] [runtime-status] [17840] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\17840 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\17840"}}
+[debug] [2022-04-27T13:51:46.301Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T13:51:46.304Z] [functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=144894, mapping to path=/payments/create?total=144894 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=144894, mapping to path=/payments/create?total=144894"}}
+[debug] [2022-04-27T13:51:46.309Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T13:51:46.309Z] [functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=144894, mapping to path=/payments/create?total=144894 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=144894, mapping to path=/payments/create?total=144894"}}
+[debug] [2022-04-27T13:51:46.313Z] [runtime-status] [20136] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>> 144894 {"user":"Payment Request Recieved for this amount >>> 144894","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>> 144894"}}
+[debug] [2022-04-27T13:51:46.320Z] [runtime-status] [17840] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>> 144894 {"user":"Payment Request Recieved for this amount >>> 144894","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>> 144894"}}
+[debug] [2022-04-27T13:51:46.331Z] [runtime-status] [20136] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Ephemeral server survived."}}
+[debug] [2022-04-27T13:51:46.339Z] [runtime-status] [17840] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-27T13:51:47.845Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: IDLE"}}
+[debug] [2022-04-27T13:51:47.846Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-27T13:51:47.937Z] [worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: IDLE"}}
+[debug] [2022-04-27T13:51:47.937Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T13:51:51.764Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T13:51:51.765Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T13:51:51.765Z] Accepted request POST /challenge-3593b/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-04-27T13:51:51.765Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T13:51:51.765Z] [worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: Assigning socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\17840 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\17840"}}
+[debug] [2022-04-27T13:51:51.766Z] [worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: BUSY"}}
+[debug] [2022-04-27T13:51:51.769Z] [runtime-status] [17840] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T13:51:51.771Z] [runtime-status] [17840] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Running api in signature http"}}
+[debug] [2022-04-27T13:51:51.771Z] [runtime-status] [17840] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\17840 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\17840"}}
+[debug] [2022-04-27T13:51:51.775Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T13:51:51.776Z] [functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-04-27T13:51:51.779Z] [runtime-status] [17840] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>> 0 {"user":"Payment Request Recieved for this amount >>> 0","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>> 0"}}
+[debug] [2022-04-27T13:51:51.782Z] [runtime-status] [17840] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [17840] Ephemeral server survived."}}
+[info] >  (node:17840) UnhandledPromiseRejectionWarning: Error: This value must be greater than or equal to 1. {"user":"(node:17840) UnhandledPromiseRejectionWarning: Error: This value must be greater than or equal to 1.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:17840) UnhandledPromiseRejectionWarning: Error: This value must be greater than or equal to 1."}}
+[info] >      at Function.generate (C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\node_modules\stripe\lib\Error.js:40:16) {"user":"    at Function.generate (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\Error.js:40:16)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.generate (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\Error.js:40:16)"}}
+[info] >      at res.toJSON.then.StripeAPIError.message (C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\node_modules\stripe\lib\StripeResource.js:220:35) {"user":"    at res.toJSON.then.StripeAPIError.message (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\StripeResource.js:220:35)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at res.toJSON.then.StripeAPIError.message (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\StripeResource.js:220:35)"}}
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:93:5) {"user":"    at processTicksAndRejections (internal/process/task_queues.js:93:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (internal/process/task_queues.js:93:5)"}}
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created) {"user":"(Use `node --trace-warnings ...` to show where the warning was created)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (Use `node --trace-warnings ...` to show where the warning was created)"}}
+[info] >  (node:17840) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1) {"user":"(node:17840) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:17840) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)"}}
+[info] >  (node:17840) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:17840) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:17840) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
+[debug] [2022-04-27T13:52:03.348Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-04-27T13:52:03.348Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-04-27T13:52:03.348Z] Accepted request POST /challenge-3593b/us-central1/api/payments/create?total=129697 --> us-central1-api
+[debug] [2022-04-27T13:52:03.348Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T13:52:03.349Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: Assigning socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\20136 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\20136"}}
+[debug] [2022-04-27T13:52:03.349Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: BUSY"}}
+[debug] [2022-04-27T13:52:03.350Z] [runtime-status] [20136] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T13:52:03.351Z] [runtime-status] [20136] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Running api in signature http"}}
+[debug] [2022-04-27T13:52:03.351Z] [runtime-status] [20136] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\20136 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\20136"}}
+[debug] [2022-04-27T13:52:03.354Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T13:52:03.354Z] [functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=129697, mapping to path=/payments/create?total=129697 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=129697, mapping to path=/payments/create?total=129697"}}
+[debug] [2022-04-27T13:52:03.357Z] [runtime-status] [20136] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>> 129697 {"user":"Payment Request Recieved for this amount >>> 129697","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>> 129697"}}
+[debug] [2022-04-27T13:52:03.359Z] [runtime-status] [20136] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [20136] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-27T13:52:03.738Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: IDLE"}}
+[debug] [2022-04-27T13:52:03.739Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
+      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
+[info] >  C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:634 {"user":"C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:634:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[debug] [2022-04-27T13:52:51.874Z] [worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: exited"}}
+[debug] [2022-04-27T13:52:51.874Z] [worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-18b42124-11b3-4173-a1f8-0a047f4eadfd]: FINISHED"}}
+[debug] [2022-04-27T13:52:51.874Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T13:55:25.760Z] File C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-04-27T13:55:26.771Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-04-27T13:55:26.771Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: FINISHING"}}
+[debug] [2022-04-27T13:55:26.773Z] Validating nodejs source
+[debug] [2022-04-27T13:55:48.773Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T13:55:48.774Z] Building nodejs source
+[debug] [2022-04-27T13:55:48.774Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T13:55:48.779Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: exited"}}
+[debug] [2022-04-27T13:55:48.779Z] [worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc99acf8-2c8d-427e-bc0e-f89c5e9f414d]: FINISHED"}}
+[debug] [2022-04-27T13:55:48.781Z] File C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-04-27T13:55:49.793Z] Validating nodejs source
+[debug] [2022-04-27T13:55:54.033Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T13:55:54.033Z] Building nodejs source
+[debug] [2022-04-27T13:55:54.033Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T13:56:14.061Z] File C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-04-27T13:56:15.078Z] Validating nodejs source
+[debug] [2022-04-27T13:56:20.351Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T13:56:20.351Z] Building nodejs source
+[debug] [2022-04-27T13:56:20.351Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T13:56:20.359Z] File C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-04-27T13:56:21.371Z] Validating nodejs source
+[debug] [2022-04-27T13:56:26.056Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-27T13:56:26.056Z] Building nodejs source
+[debug] [2022-04-27T13:56:26.056Z] Analyzing nodejs backend spec
+[debug] [2022-04-27T13:56:44.955Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T13:56:44.955Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T13:56:44.955Z] Accepted request POST /challenge-3593b/us-central1/api/payments/create?total=72896 --> us-central1-api
+[debug] [2022-04-27T13:56:44.955Z] [worker-pool] Cleaned up workers for us-central1-api: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 2 --> 0"}}
+[debug] [2022-04-27T13:56:44.963Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-04-27T13:56:44.963Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-04-27T13:56:44.963Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T13:56:44.963Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: Assigning socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\5868 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\5868"}}
+[debug] [2022-04-27T13:56:44.963Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: BUSY"}}
+[debug] [2022-04-27T13:56:47.100Z] [runtime-status] [5868] Functions runtime initialized. {"cwd":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions","node_version":"14.11.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\",\"node_version\":\"14.11.0\"}"}}
+[debug] [2022-04-27T13:56:47.105Z] [runtime-status] [5868] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Disabled runtime features: undefined"}}
+[debug] [2022-04-27T13:56:47.109Z] [runtime-status] [5868] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:56:47.112Z] [runtime-status] [5868] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:56:47.113Z] [runtime-status] [5868] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-27T13:56:47.114Z] [runtime-status] [5868] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:56:47.236Z] [runtime-status] [5868] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-27T13:56:47.236Z] [runtime-status] [5868] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-27T13:56:47.238Z] [runtime-status] [5868] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:56:47.240Z] [runtime-status] [5868] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:56:47.241Z] [runtime-status] [5868] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.1","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.1\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-04-27T13:56:47.241Z] [runtime-status] [5868] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"C:\\\\Users\\\\Ankit\\\\Desktop\\\\Amazon-clone\\\\amazon-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-04-27T13:56:47.501Z] [runtime-status] [5868] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T13:56:47.503Z] [runtime-status] [5868] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Running api in signature http"}}
+[debug] [2022-04-27T13:56:47.507Z] [runtime-status] [5868] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\5868 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\5868"}}
+[debug] [2022-04-27T13:56:47.511Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T13:56:47.511Z] [functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=72896, mapping to path=/payments/create?total=72896 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=72896, mapping to path=/payments/create?total=72896"}}
+[debug] [2022-04-27T13:56:47.519Z] [runtime-status] [5868] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>> 72896 {"user":"Payment Request Recieved for this amount >>> 72896","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>> 72896"}}
+[debug] [2022-04-27T13:56:47.535Z] [runtime-status] [5868] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-27T13:56:48.370Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: IDLE"}}
+[debug] [2022-04-27T13:56:48.370Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T13:59:02.758Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T13:59:02.758Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T13:59:02.758Z] Accepted request POST /challenge-3593b/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2022-04-27T13:59:02.759Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T13:59:02.759Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: Assigning socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\5868 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\5868"}}
+[debug] [2022-04-27T13:59:02.759Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: BUSY"}}
+[debug] [2022-04-27T13:59:02.760Z] [runtime-status] [5868] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T13:59:02.761Z] [runtime-status] [5868] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Running api in signature http"}}
+[debug] [2022-04-27T13:59:02.762Z] [runtime-status] [5868] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\5868 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\5868"}}
+[debug] [2022-04-27T13:59:02.767Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T13:59:02.767Z] [functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2022-04-27T13:59:02.770Z] [runtime-status] [5868] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>> 71700 {"user":"Payment Request Recieved for this amount >>> 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>> 71700"}}
+[debug] [2022-04-27T13:59:02.774Z] [runtime-status] [5868] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-04-27T13:59:03.498Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: IDLE"}}
+[debug] [2022-04-27T13:59:03.499Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-27T13:59:24.037Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-27T13:59:24.038Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-27T13:59:24.038Z] Accepted request POST /challenge-3593b/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2022-04-27T13:59:24.038Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-04-27T13:59:24.038Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: Assigning socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\5868 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\5868"}}
+[debug] [2022-04-27T13:59:24.038Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: BUSY"}}
+[debug] [2022-04-27T13:59:24.046Z] [runtime-status] [5868] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-04-27T13:59:24.047Z] [runtime-status] [5868] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Running api in signature http"}}
+[debug] [2022-04-27T13:59:24.047Z] [runtime-status] [5868] Attempting to listen to socketPath: \\?\pipe\C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\5868 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Attempting to listen to socketPath: \\\\?\\pipe\\C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\5868"}}
+[debug] [2022-04-27T13:59:24.049Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-27T13:59:24.049Z] [functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/challenge-3593b/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2022-04-27T13:59:24.051Z] [runtime-status] [5868] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved for this amount >>> 0 {"user":"Payment Request Recieved for this amount >>> 0","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>> 0"}}
+[debug] [2022-04-27T13:59:24.053Z] [runtime-status] [5868] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5868] Ephemeral server survived."}}
+[info] >  (node:5868) UnhandledPromiseRejectionWarning: Error: This value must be greater than or equal to 1. {"user":"(node:5868) UnhandledPromiseRejectionWarning: Error: This value must be greater than or equal to 1.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:5868) UnhandledPromiseRejectionWarning: Error: This value must be greater than or equal to 1."}}
+[info] >      at Function.generate (C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\node_modules\stripe\lib\Error.js:40:16) {"user":"    at Function.generate (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\Error.js:40:16)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Function.generate (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\Error.js:40:16)"}}
+[info] >      at res.toJSON.then.StripeAPIError.message (C:\Users\Ankit\Desktop\Amazon-clone\amazon-clone\functions\node_modules\stripe\lib\StripeResource.js:220:35) {"user":"    at res.toJSON.then.StripeAPIError.message (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\StripeResource.js:220:35)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at res.toJSON.then.StripeAPIError.message (C:\\Users\\Ankit\\Desktop\\Amazon-clone\\amazon-clone\\functions\\node_modules\\stripe\\lib\\StripeResource.js:220:35)"}}
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:93:5) {"user":"    at processTicksAndRejections (internal/process/task_queues.js:93:5)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTicksAndRejections (internal/process/task_queues.js:93:5)"}}
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created) {"user":"(Use `node --trace-warnings ...` to show where the warning was created)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (Use `node --trace-warnings ...` to show where the warning was created)"}}
+[info] >  (node:5868) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1) {"user":"(node:5868) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:5868) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)"}}
+[info] >  (node:5868) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:5868) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:5868) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
+[warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
+      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
+[info] >  C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:634 {"user":"C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Ankit\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:634:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Ankit\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:634:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[debug] [2022-04-27T14:00:24.097Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: exited"}}
+[debug] [2022-04-27T14:00:24.097Z] [worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-9a93e4a6-d850-4aca-b761-6940245a1ee4]: FINISHED"}}
+[debug] [2022-04-27T14:00:24.098Z] [work-queue] {"queueLength":0,"workRunningCount":0}
