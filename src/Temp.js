@@ -4,7 +4,7 @@ import Product from "./Product";
 import initialDetails from "./InitialDataList";
 import Search from "./Search";
 function temp() {
-    console.log("rat");
+    console.log("rat22");
   return (
     
     <div className="tc bg-green ma0 pa4 min-vh-100">
