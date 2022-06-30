@@ -4,7 +4,9 @@ import Product from "./Product";
 import initialDetails from "./InitialDataList";
 import Search from "./Search";
 function temp() {
+    console.log("rat");
   return (
+    
     <div className="tc bg-green ma0 pa4 min-vh-100">
     <Search details={initialDetails}/>
   </div>
