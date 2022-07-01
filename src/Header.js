@@ -7,10 +7,11 @@ import { useStateValue } from "./StateProvider";
 import {auth} from "./firebase"
 import initialDetails from "./InitialDataList";
 import Search from "./Search";
+import logo from "./INFI-BAZAAR.png"
 function Header() {
   
   const [{basket,user}, dispatch] = useStateValue();
-
+  
   const handleAuthentication = () => {
     if (user)
     {
@@ -22,7 +23,8 @@ function Header() {
       <Link to="/">
       <img
         className="header__logo"
-        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        src={logo}
+        alt="Logo"
         />
         </Link>
 
@@ -46,7 +48,7 @@ function Header() {
         </Link>
         <div className="header__option">
           <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
+          <span className="header__optionLineTwo">Account</span>
         </div>
         
       </div>
